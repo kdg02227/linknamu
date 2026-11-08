@@ -16,9 +16,9 @@ export type Profile = {
 };
 
 export const profile: Profile = {
-  name: "홍길동",
-  bio: "한 줄 소개를 여기에 적어주세요",
-  imageUrl: "/profile-placeholder.svg",
+  name: "김동규",
+  bio: "클로드코드 마스터",
+  imageUrl: "/profile.jpg",
 };
 
 export const links: ProfileLink[] = [
