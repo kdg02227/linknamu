@@ -31,7 +31,7 @@ export default function LinkCard({ link }: { link: ProfileLink }) {
       href={link.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex w-full items-center gap-3 rounded-xl border border-neutral-300 bg-white px-5 py-4 font-medium shadow-sm transition hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 dark:border-neutral-700 dark:bg-neutral-900"
+      className="flex w-full items-center gap-3 rounded-2xl border border-white/60 bg-white/45 px-5 py-[1.125rem] text-[0.9375rem] font-semibold text-stone-800 shadow-[inset_0_1px_0_rgb(255_255_255/0.7),0_8px_24px_-12px_rgb(150_80_40/0.25)] backdrop-blur-xl backdrop-saturate-150 transition duration-300 ease-out hover:bg-white/65 hover:shadow-[inset_0_1px_0_rgb(255_255_255/0.8),0_12px_28px_-12px_rgb(150_80_40/0.32)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400 active:scale-[0.99] motion-safe:hover:-translate-y-px dark:border-white/10 dark:bg-white/[0.06] dark:text-stone-100 dark:shadow-[0_8px_24px_-12px_rgb(0_0_0/0.5)] dark:hover:bg-white/10"
     >
       <LinkIcon type={link.type} />
       <span className="flex-1 text-center">{link.title}</span>
