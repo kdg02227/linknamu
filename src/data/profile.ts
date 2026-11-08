@@ -17,7 +17,7 @@ export type Profile = {
 
 export const profile: Profile = {
   name: "김동규",
-  bio: "지상이 룸메",
+  bio: "안녕하세유",
   imageUrl: "/profile.jpg",
 };
 
